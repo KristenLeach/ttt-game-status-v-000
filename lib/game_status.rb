@@ -35,7 +35,6 @@ def over?(board)
   full?(board) || won?(board) || draw?(board) 
 end
 
-
 def winner(board)
     if won?(board)
        winning_line = won?(board)
